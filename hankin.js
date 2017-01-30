@@ -24,7 +24,8 @@ function Hankin(a, v) {
 
 
   this.findEnd = function(other) {
-
+    
+    // from: http://paulbourke.net/geometry/pointlineplane/
     var x1 = this.a.x;
     var y1 = this.a.y;
     var x2 = this.b.x;
